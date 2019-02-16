@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import BodyPart from './Components/BodyPart';
-import Main from './Components/Main';
+import BodyPart from './components/BodyPart';
+import Main from './components/Main';
 
 import { 
   BrowserRouter as Router,
