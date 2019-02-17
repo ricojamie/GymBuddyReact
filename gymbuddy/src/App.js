@@ -4,12 +4,7 @@ import './App.css';
 import BodyPart from './components/BodyPart';
 import Main from './components/Main';
 
-import { 
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Link
-} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 class App extends Component {
   render() {
