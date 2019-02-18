@@ -3,7 +3,7 @@
   padding: 0;
   height: 100vh;
   text-align: center;
-  background-image: linear-gradient(#224e4d, #083023 );
+  background-color: #303030;
 }
 
 .title {
@@ -20,9 +20,67 @@
 }
 
 .get-started {
-  margin-top: 150px;
   padding: 10px 40px 10px 40px;
   background-color: white;
   border-radius: 12px;
   text-decoration: none;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-content: space-around;
+  padding-left: 30px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.grid-title {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.grid-container-library {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-content: space-around;
+  padding-left: 30px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.exercise-image {
+  height: 150px;
+}
+
+.exercise-title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.grid-container-library .item1 {
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px 0 5px;
+}
+
+.grid-item {
+  border-radius: 20px;
+  background-image: linear-gradient(#224e4d, #083023);
+}
+
+.item7 {
+  grid-column-start: 2;
+}
+
+.item7 .exercise-image {
+  width: 200px;
+  height: 130px;
 }

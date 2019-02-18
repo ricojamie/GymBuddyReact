@@ -7,13 +7,15 @@ class Main extends Component {
     return (
       <div className="App">
         <div>
-          <h1 className="title">Gym Buddy</h1>
-          <p className="subtitle">Track your workout</p>
-          <p className="subtitle">See your progress</p>
-          <p className="subtitle">View the workout library</p>
-          <Link to="/library">
-            <button className="get-started">GET STARTED!</button>
-          </Link>
+          <div class="grid-container">
+            <h1 className="title grid-item grid-title">Gym Buddy</h1>
+            <p className="subtitle grid-item">Track your workout</p>
+            <p className="subtitle grid-item">See your progress</p>
+            <p className="subtitle grid-item">View the workout library</p>
+            <Link to="/library">
+              <button className="get-started grid-item">GET STARTED!</button>
+            </Link>
+          </div>
         </div>
       </div>
     );
